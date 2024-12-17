@@ -1,0 +1,1120 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .header{
+   width: 100%;
+   height: 45px;
+   background-color: rgb(147, 129, 75);
+   position: fixed;
+   top: 0;
+   z-index:500;
+ }
+ .header-list{
+   list-style: none;
+   float: right;
+ }
+ .header-list  li{
+     display: inline-block;
+     margin:10px 17px ; 
+     margin-left: 10px;
+     color: white;  
+ }
+ .header-list  li  a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+   font:400  17px   'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  }
+   input{
+      width: 250px;
+      height: 30px;
+      border-radius:70px;
+      margin: 10px   35px;
+   }
+   .header-icon{
+      color: white;
+      margin-left:23px;
+      margin-top: 10px;
+      font-size: 25;
+       } 
+ .home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/images\ \(12\).jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+ }
+ .home-overlay{
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;  left: 0;
+    background-color:rgba(0, 0,0, 0.7) ;  
+ }
+.home-title{
+  font:normal  bold   100px    Arial, Helvetica, sans-serif ;
+  color: white;
+  text-transform: uppercase;
+  font-size: 75px;
+}
+.home-p{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 10px  0;
+  letter-spacing: 2px;
+}
+.home-butn{
+  width: 110px;
+  height: 50px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.butn2{
+  color: white;
+ margin-left: 1px;
+background-color: rgb(147, 129, 75);
+}
+ .home-content{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 50%;     left: 50%;
+    transform: translate(-50%  ,  -50%);
+    text-align: center;}
+  .clear{clear: both;}
+
+  .home-butn:hover{
+    opacity: 0.4;
+  }
+
+ .welcome{
+    width: 100%;  
+    height: 600px;
+ 
+    background-size: cover; 
+    overflow: auto;
+    position: relative;
+ }
+  .welcome h2{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+ } 
+  .welcome hr{
+    width: 100px;
+    border: 2px solid rgb(147, 129, 75);
+    margin: auto;
+
+  }
+ .welcom-p{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color:  rgb(43, 34, 5)  ;
+ }
+ .welcom-1:hover .welcom-p{
+  color:rgb(100, 212, 69);
+ }
+ .welcom-2:hover .welcom-p{
+  color: rgb(100, 212, 69);
+ }
+ .welcom-3:hover .welcom-p{
+  color: rgb(100, 212, 69);
+ }
+ .welcom-1:hover  .welcom-span{
+  color: black;
+ }
+ .welcom-span{
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 20px  0;
+  color: rgb(125, 121, 121);
+  font-size: 18px;
+ }
+ .welcome  a{
+  margin: 0  150px;
+   text-decoration: none;
+   font-size: 18px;
+   color : rgb(43, 34, 5);
+   font-weight: bold;
+ }
+   .welcom-1{     
+        
+       margin-left: 70px;
+       padding-left: 10px      
+   }
+   .welcom-icon1 , .welcom-icon2 , .welcom-icon3{
+      font-size: 30;
+      color:rgb(100, 212, 69);
+      margin: 20px  150px;     
+   } 
+   .welcom-2{     
+      margin: 0 80px;          
+   } 
+    .welcom-1 , .welcom-2 ,  .welcom-3{
+      width: 400px;
+       height: 300px;
+       float: left;
+       margin-top: 50px; 
+       border-radius: 15px;
+       padding-left: 10px;
+       border: 1px solid rgb(14, 14, 43);
+      background-color:white;
+      position: relative;
+   }
+  
+   .welcom-1:after{
+    content:" ";
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      left: 0;
+      background-color: rgb(147, 129, 75);    
+   }
+  .welcom-1:hover::after {   
+   width: 100%;
+   height: 100%;
+   transition: 1s;
+   opacity: 0.4;
+ }
+ .welcom-2:after{
+  content:" ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(147, 129, 75);  
+ }
+.welcom-2:hover::after {
+  
+ width: 100%;
+ height: 100%;
+ transition: 1s;
+ opacity: 0.4;
+}
+.welcom-3:after{
+  content:" ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(147, 129, 75);   
+ }
+.welcom-3:hover::after {
+  
+ width: 100%;
+ height: 100%;
+ transition: 1s;
+ opacity: 0.4;}
+  .featured{
+      width: 100%;
+      height:800px;
+      background-color: rgba(250, 233, 180, 0.963) ;     }
+   .featured-h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 140px;
+    margin:20px  0;}
+   .featured hr{
+    width: 100px;
+    border: 2px solid  rgb(147, 129, 75) ;
+    margin: auto;
+   }
+   .featured-top  , .featured-down{
+      float: left;
+      margin-top: 50px;     
+   }
+   .featured1, .featured2, .featured3, .featured4, .featured5,.featured6 {
+      float: left;
+      width: 300px;
+      height: 185px;
+      margin-right:50px;  
+      position: relative;   
+   }
+   
+   .featured-down{
+      
+      margin-bottom: -100px;
+    margin-top: 30px;
+    margin-left: 20px;
+   }
+   .featured1{
+   background-image: url(../images/download.jfif);
+   float: left;
+   margin-left: 170px;
+   }
+   .featured2{  
+    background-image: url(../images/images\ \(8\).jfif);
+     background-size: cover;}
+     
+    .featured3{
+   background-image: url(../images/bg-philippines.jpeg);
+         }
+   .featured4{
+     margin-left: 150px;
+    background-image: url(../images/download\ \(2\).jfifRED.jfif) }
+   .featured5{
+     background-image: url(../images/DJI_0573-HDR.jpg)}
+              
+   .featured6{
+    background-image: url(../images/jounieh-bay-lebanon-in-the-morning79450865-l.jpeg);
+      background-size: cover;}
+    .featured-overlay{
+       width:100%;
+       height: 100%;
+       background-color:rgba(0, 0,0, 0.7) ; 
+       visibility: hidden;
+       position: absolute;
+      }
+      .featured h3{
+        color: white;
+        font-weight: bold;
+        font-size: 40px;  
+        text-align: center;  
+        margin-top: 10px;    
+      }
+      .featured  p{
+        color: white;
+         font-size: 20px;
+         text-align: center;
+         margin: 10px  0;
+      }
+      .icon200{
+        margin-left: 100px;
+      }
+      .featured i{
+        background-color: white;
+        color: rgb(147, 129, 75);
+         font-size: 25px;  
+         border-radius: 15%; 
+         line-height: 50px;      
+      }
+          .featured1:hover  .featured-overlay{ visibility: visible;}
+          .featured2:hover  .featured-overlay{ visibility: visible;}
+          .featured3:hover  .featured-overlay{ visibility: visible;}
+          .featured4:hover  .featured-overlay{ visibility: visible;}
+          .featured5:hover  .featured-overlay{ visibility: visible;}
+          .featured6:hover  .featured-overlay{ visibility: visible;}  
+          .offer{      
+          width: 100%;
+            height: 640px;        
+          }
+          .offer   h2{
+            font-weight: bold;
+            text-align: center;
+            font:   bold  25px;
+            font-size: 45px;
+           margin-top: 40px;}          
+            .offer hr{
+              width: 100px;
+              border: 2px solid rgb(147, 129, 75)    ;
+              margin: auto;           }
+     
+          .offer1  , .offer2 , .offer3 , .offer4 , .offer5 , .offer6{
+            width: 300px;
+            height: 200px;
+            float: left;
+            border: 1px solid rgb(5, 7, 56);           
+            margin-right:30px;
+            margin: 0   50px;
+            border-radius: 5%;
+            padding: 15px;
+            position: relative;
+          } 
+          .offer-top{
+            float: left;           
+            margin: 30px  0   0    20px;            
+          }
+          .offer-down{           
+            margin:50px  0  -100px     20px ;       
+            float:left ;
+          }
+          .offer1, .offer4{
+            margin-left: 150px;
+          }
+          .offer2,  .offer3{
+           margin: 0   50px;
+          }
+          .offer  h3{
+            display: inline;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;         }
+          .offer  i{
+          color:rgb(100, 212, 69) ;
+          font-size: 30px;             }
+          .offer  p{
+            color: gray;
+          padding: 15px;
+          font-weight: bold;
+        }
+        .offer1:hover h3{
+          color: rgb(100, 212, 69)   ;
+        }
+        .offer1:hover p{
+          color: black;
+        }
+         .offer1:after{
+          content:" ";
+            position: absolute;
+           width: 0;
+           height: 0;
+            top: 0;
+            left: 0;
+            background-color: rgb(147, 129, 75);         
+         }
+        .offer1:hover::after {        
+         width: 100%;
+         height: 100%;
+         transition: 1s;
+         opacity: 0.4;
+        }
+        .offer2:hover h3{
+          color: rgb(100, 212, 69)   ;
+        }
+        .offer2:hover p{
+          color: black;
+        }
+         .offer2:after{
+          content:" ";
+            position: absolute;
+           width: 0;
+           height: 0;
+            top: 0;
+            left: 0;
+            background-color: rgb(147, 129, 75);         
+         }
+        .offer2:hover::after {        
+         width: 100%;
+         height: 100%;
+         transition: 1s;
+         opacity: 0.4;
+        }
+
+        .offer3:hover h3{
+          color: rgb(100, 212, 69)   ;
+        }
+        .offer3:hover p{
+          color: black;
+        }
+         .offer3:after{
+          content:" ";
+            position: absolute;
+           width: 0;
+           height: 0;
+            top: 0;
+            left: 0;
+            background-color: rgb(147, 129, 75);         
+         }
+        .offer3:hover::after {        
+         width: 100%;
+         height: 100%;
+         transition: 1s;
+         opacity: 0.4;
+        }
+        .offer4:hover h3{
+          color: rgb(100, 212, 69)   ;
+        }
+        .offer4:hover p{
+          color: black;
+        }
+         .offer4:after{
+          content:" ";
+            position: absolute;
+           width: 0;
+           height: 0;
+            top: 0;
+            left: 0;
+            background-color: rgb(147, 129, 75);         
+         }
+        .offer4:hover::after {        
+         width: 100%;
+         height: 100%;
+         transition: 1s;
+         opacity: 0.4;
+        }
+        .offer5:hover h3{
+          color: rgb(100, 212, 69)   ;
+        }
+        .offer5:hover p{
+          color: black;
+        }
+         .offer5:after{
+          content:" ";
+            position: absolute;
+           width: 0;
+           height: 0;
+            top: 0;
+            left: 0;
+            background-color: rgb(147, 129, 75);         
+         }
+        .offer5:hover::after {        
+         width: 100%;
+         height: 100%;
+         transition: 1s;
+         opacity: 0.4;
+        }
+        .offer6:hover h3{
+          color: rgb(100, 212, 69)   ;
+        }
+        .offer6:hover p{
+          color: black;
+        }
+         .offer6:after{
+          content:" ";
+            position: absolute;
+           width: 0;
+           height: 0;
+            top: 0;
+            left: 0;
+            background-color: rgb(147, 129, 75); 
+                
+         }
+        .offer6:hover::after {        
+         width: 100%;
+         height: 100%;
+         transition: 1s;
+         opacity: 0.4;       }  
+
+           .con-choose{
+            height: 600px;
+            width: 40%;
+            margin-left: 0;
+          }
+           .choose h2{
+            font-size: 45px;          
+           }
+           
+           .choose-line{
+            width: 100px;
+            height: 5px;
+            background-color: rgb(147, 129, 75);    
+
+           
+            margin-top: 10px;
+            margin-bottom: 40px;     }
+            .choose-left p{
+              margin-bottom: 40px;
+              font-weight: bold;
+              color: gray;
+            }
+            .choose-left i{
+              color:black    ;         }
+            .choose-left span{
+            font-size: 15px;
+            font-weight: bold;
+            color:   rgb(147, 129, 75)   ;
+            }
+   .choose{
+    width: 100%;
+    height: 600px; }       
+         .choose-right , .choose-left{
+          float: left;            } 
+         .choose-left{margin-left: 150px;
+          margin-top: 50px;}
+         .choose-right{
+          margin-left: 50px;
+          margin-right: 50px;
+         }   
+         .choose-right img{
+          height: 450px;
+          width: 350px;
+         }
+         .choose-span{
+          font-weight: bold;
+          font-size: 10px;
+        
+         }
+         .choose-right li{
+          width: 10px;
+          height: 10px;
+          color: rgb(167, 170, 194);
+          float: left;
+          margin: 5px  10px;
+         }
+         .choose-right ul{
+         margin-left: 170px;
+         }
+         .choose-li{
+          border-radius: 50%;
+          font-size: 50px;
+         }
+         ul:hover li{
+          color: rgb(147, 129, 75);
+         }
+         
+   .section6{
+      width: 100%;
+      height: 400px;
+      background-image: url(../images/Cairos-best-travel-agencies-803x420.webp);
+      background-attachment: fixed;
+      background-size: cover;
+      margin-top: 70px; }
+          .one, .two, .three,  .four{
+            width:50px;
+            height: 50px;
+            float: left;
+            margin:0   200px;         
+            margin: 100px  0  0   250px;
+          } 
+          .section6  i{
+            color:rgb(232, 247, 14);
+            font-size: 40px;
+           
+          }
+          .section6  h2{
+            font-size:30px;
+            color:white ; 
+                   
+          }
+          .section6  p{
+            font-size: 20px;
+            color:white;
+           
+          }
+          .pricing{
+            width: 100%;
+            height: 650px;
+          
+          }
+          .pricing  h2{
+            margin-top: 120px;
+           font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px;
+           }
+          .pricing hr{
+            width: 100px; 
+            border: 2px solid    rgb(147, 129, 75)   ;
+            margin: auto;
+          }
+          .pricing1 , .pricing2,  .pricing3{
+            width: 320px;
+            height: 350px;
+            border: 1px solid rgb(113, 31, 31);
+            float: left;
+            margin: 80px  50px   30px   50px;
+            border-radius:10px ;
+            padding: 30px;  
+            position: relative;        
+          }
+           .pricing span{
+            text-align: center;
+            font-weight: bold;
+            font-size: 50x;                    
+          }    
+          .pricing1-span, .pricing2-span,.pricing3-span{
+          margin-left: 60px;
+          font-size: 20px;
+          }
+        .pricing1:hover .pricing1-span {
+          color: rgb(113, 31, 31);
+        }
+        .pricing2:hover .pricing2-span {
+          color: rgb(113, 31, 31);
+        }
+        .pricing3:hover .pricing3-span {
+          color:rgb(113, 31, 31);
+        }
+        .pricing1:hover .circle{
+          border: 3px solid rgb(113, 31, 31);
+        }
+        .pricing2:hover .circle{
+          border: 3px solid rgb(113, 31, 31);
+        }
+        .pricing3:hover .circle{
+          border: 3px solid rgb(113, 31, 31);
+        }
+          
+          .pricing1{
+            margin-left:200px;
+          }
+          .circle{
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 1px solid rgb(113, 31, 31);
+            margin-left: 60px;
+            margin-top: 20px;   }
+          .circle  span{
+            text-align: center;
+            font-size: 25px;
+            margin-top: 30px;
+            padding: 20px;        
+          }
+          .pricing  p{
+            margin: 15px   0;
+            text-align: center;
+            font-weight: bold;    }
+         .pricing  button{
+            margin: 10px 60px;
+            width:150px;
+            height: 30px;
+           border-radius: 10px;         
+         }
+         .pricing1:after{
+          content:" ";
+            position: absolute;
+           width: 100%;
+           height: 0;
+            top: 0;
+            left: 0;
+            transition: 1s;
+            background-color: rgb(147, 129, 75)
+            ;         
+         }
+        .pricing1:hover::after {        
+         width: 100%;
+         height: 100%;
+         opacity: 0.4;
+        }
+
+        .pricing2:after{
+          content:" ";
+            position: absolute;
+           width: 100%;
+           height: 0;
+            top: 0;
+            left: 0;
+            transition: 1s;
+            background-color: rgb(147, 129, 75)
+            ;         
+         }
+        .pricing2:hover::after {        
+         width: 100%;
+         height: 100%;
+         opacity: 0.4;
+        }
+          .pricing3:after{
+          content:" ";
+          position: absolute;
+           width: 100%;
+           height: 0;
+            top: 0;
+            left: 0;
+            transition: 1s;
+            background-color:  rgb(147, 129, 75) ;           }
+        .pricing3:hover::after {        
+         width: 100%;
+         height: 100%;
+         opacity: 0.4;
+        }
+         .section8{
+          width: 100%;
+         height: 400px;
+          position: relative;
+          background-image: url(../images/Khufus-Best-Restaurant-in-Egypt.webp);
+          background-attachment: fixed;
+      background-size: cover;
+         
+       }
+       .leftimage img{
+        
+         border-radius: 50;
+         width: 80px;
+         height: 80px;
+         border-radius: 50%;
+         margin-left: 220px;  
+         margin-top: 50px;
+       }
+       .rightimage img{
+       border-radius: 50%;
+       width: 80px;
+       height: 80px;
+       border-radius: 50%;  
+       margin-left: 50px;
+       margin-bottom: 180px;
+       margin-top: -20px;
+       }
+       .leftimage, .rightimage{
+         width: 50px;
+         height: 50px;
+         border-radius: 25px;  
+              
+       }
+       .section8 img{
+        float: left;     
+       }      
+       .left{
+         width: 50%;
+         padding: 40px;        
+       }
+       .right{
+         margin-left: 50%;
+         width: 50%;
+         margin-top: -140px;        
+       }
+      .left-content{
+        margin-left: 320px;
+        margin-bottom: 30px;
+        
+      } 
+      .section8 h2{
+        color: blue;
+        font-size: 30px;
+      
+      }
+      .right p{
+        margin-right: 70px;
+        margin-top: 20px;
+       margin-left: -90px;
+      font-size: 15px; 
+      font-weight: bold;
+      color:black;
+      }
+      .left p{
+      margin-left: 200px;
+      margin-top: 20px;
+      font-size: 15px; 
+      font-weight: bold;
+      color:  black;
+      } 
+      .right-content{
+        margin-left: 150px;
+        margin-bottom: 10px;
+        margin-top: -60px;     
+      }
+      .right-content span{
+        font-weight: bold;
+        color:gray;
+      }
+      
+      .left-content span{
+        font-weight: bold;
+        color: gray;
+      }   
+     .team{
+       width: 100%;
+       margin-top: 300px;
+      height: 300px;
+       }
+
+       .container{
+        width: 80%;
+        margin: auto;
+       }
+   
+     .team h2{
+         font-size: 40px;
+         text-align: center;
+         margin-bottom: 10px;
+         color: rgb(1, 1, 5);
+      }
+      .team-line{
+        width: 100px;
+        height: 5px;
+        background-color: rgb(211, 206, 143);
+        margin: auto;
+        margin-top: -2px;
+        margin-bottom: 50px;
+      }
+       .team-item{
+        float: left;
+        background-color: rgb(211, 206, 143);
+        width: 30%;
+        padding: 14px  18px;
+        text-align: center;
+         position: relative;
+       }
+       .item2{
+        margin: 0  5%;
+       }
+       .team-img{
+        width: 90%;
+        margin: auto;
+    position: relative;
+        z-index: 0;
+       }
+       .team-img  img{
+        width:100% ;
+        height: 100%;
+       }
+       .team-overlay{
+      position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0,0, 0.5);
+        visibility: hidden;
+        z-index: 1800;
+       }
+      
+       .team-overlay  a{
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color:rgb(88, 152, 70);
+        color: white;
+        font-size: 20px;
+        margin-left: auto;
+      
+       }
+       .team-item:hover .team-overlay{
+        visibility: visible;
+       
+       }
+       .team-overlay  a  i{
+        line-height:40px ;
+       }
+       .team-info-title{
+        text-transform: uppercase;
+        padding: 12px  0;
+        font-size: 30px;
+       color: rgb(100, 212, 69);
+    
+       }
+       .team-info-sp1{
+        text-transform: capitalize;
+        color: gray;
+       }
+       .team-item:hover  .team-info-title{
+        color: white;
+       }
+       .team-item:after{
+        content:" ";
+        position: absolute;
+         width: 100%;
+         height: 0;
+          top: 0;
+          left: 0;
+          transition: 1s;
+          background-color:  rgb(147, 129, 75)         ;         
+       }
+      .team-item:hover::after {        
+       width: 100%;
+       height: 100%;
+       opacity: 0.4;
+      }   
+     .News{
+      width:100%;
+      margin-top: 300px;
+      height: 200px;
+     }
+    .News  h2{
+      font-weight: bold;
+            text-align: center;
+            margin-bottom: 50px;
+            font-size:40px;
+            color: black;
+    }
+    .News-line{
+      width: 100px;
+      height: 5px;
+      background-color:rgb(211, 206, 143);
+      margin: auto;
+      margin-top: -40px;
+      margin-bottom: 50px;
+    }
+    .news1  ,.News2 ,  .News3{
+       width: 380px;
+       height: 500px;
+       float: left;
+       position: relative;
+       border: 1px rgb(147, 129, 75);
+       border-radius: 15px; 
+       border: 1px solid rgb(14, 14, 43)
+    }
+    .news  img{
+       margin: auto;
+       margin: 40px;
+       height:200px;
+     
+      border-radius: 15px;
+    }
+    .icon{
+      margin-left: 90px;
+    }
+   .icon2, .icon1 , .icon3{
+    color: rgb(46, 46, 200);
+   }
+    .News1{
+      
+      margin-left: 110px;
+    }
+    .News2{
+   
+      margin:0  70px;
+    }
+    .news1-content ,.news2-content , .news3-content{
+      margin-top: 50px;
+    }
+    .news1-content  a{
+      margin: 0  150px;    
+      text-decoration: none;
+      font-weight: bold;
+      color: rgb(100, 212, 69);
+    }
+    .news2-content  a{
+      margin: 0  150px;   
+      text-decoration: none;
+      font-weight: bold;
+      color: rgb(100, 212, 69);
+    }
+    .news3-content  a{
+      margin: 0  150px;     
+      text-decoration: none;
+      font-weight: bold;
+      color: rgb(100, 212, 69);
+    }
+     .news1-content p{
+      padding: 20px;
+      color: gray;
+    }
+    .news2-content  p{
+       padding: 20px;
+       color: gray;
+    }
+    .news3-content  p{
+      padding: 29px;
+      color: gray;
+   }
+   .news1-img  span{
+     font-weight: bold;
+   }
+   .news2-img  span{
+    font-weight: bold;
+  }
+  .news3-img  span{
+    font-weight: bold;
+  }
+  .news1:hover h3{
+    color: rgb(100, 212, 69);
+  }
+  .news2:hover h3{
+    color: rgb(100, 212, 69);
+  }
+  .news3:hover h3{
+    color: rgb(100, 212, 69);
+  }
+    .news h3 {
+      text-align: center;
+      font-size: 20px;
+      margin-top: -20px;
+    }
+    .News span{
+      margin-right: 15px;
+    }
+    .news1:after{
+      content:" ";
+        position: absolute;
+       width: 100%;
+       height: 0;
+        top: 0;
+        left: 0;
+        transition: 1s;
+        background-color: rgb(147, 129, 75)        ;              }
+    .news1:hover::after {        
+     width: 100%;
+     height: 100%;
+     opacity: 0.4;
+    } 
+    .news2:after{
+      content:" ";
+        position: absolute;
+       width: 100%;
+       height: 0;
+        top: 0;
+        left: 0;
+        transition: 1s;
+        background-color: rgb(147, 129, 75)     ;            }
+    .news2:hover::after {        
+     width: 100%;
+     height: 100%;
+     opacity: 0.4;
+    } 
+    .news3:after{
+      content:" ";
+        position: absolute;
+       width: 100%;
+       height: 0;
+        top: 0;
+        left: 0;
+        transition: 1s;
+        background-color: rgb(147, 129, 75) ;           }
+    .news3:hover::after {        
+     width: 100%;
+     height: 100%;
+     opacity: 0.4; } 
+    .news-title{
+      color: black;  }
+    .news1:hover  .news1-p{
+      color: black; }
+    .news2:hover  .news2-p{
+      color: black;
+    }
+    .news3:hover  .news3-p{
+      color: black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .last{
+      margin-top: 500px;
+      width: 100%;
+      height: 50vh;
+      background-color: bisque;
+    }
+    .last-img{
+      margin: auto;
+      width: 400px;
+      height: 50px;
+      border-radius: 15%;
+    }
+    .last-img  img{
+      margin-top: 30px;
+      border-radius: 15px;    
+    }
+    .last-icons{
+      text-align: center;
+      margin-top: 165px;
+      margin-right: 35px;
+    
+    }
+    .last-icons  i{
+      width: 50px;
+      height: 50px;
+      color: aliceblue;
+      background-color: rgb(111, 129, 208);
+      font-size: 30px;
+      margin-top: 10px;
+      border-radius: 50%;
+      text-align: center;
+     line-height: 50px;
+    }
+    .facebook i{
+      text-align: center;
+    }
+    
